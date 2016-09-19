@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>I Can't Decide</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="css/styles.css" rel="stylesheet">
+	</head> 
+	<body>
+        <div class="container">
+            <div class="row">
+                <div id="main" class="col-xs-12 col-md-offset-2 col-md-8">
+                    <div class="row">
+                        <h2 class="col-xs-12">
+                            I Can't Decide
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div id="options-container" class="form col-xs-12">
+                            <div class="form-group row option">
+                                <div class="col-xs-8">
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col-xs-4">
+                                    <button type="button" class="btn btn-danger delete-line">
+                                        X
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row option">
+                                <div class="col-xs-8">
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col-xs-4">
+                                    <button type="button" class="btn btn-danger delete-line">
+                                        X
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-12">
+                                    <button type="button" id="add-option" class="btn btn-default">
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-4 col-xs-4">
+                            <button type="button" id="decide" class="btn btn-primary btn-block">
+                                Decide for me
+                            </button>
+                        </div>
+                    </div>
+                </div>	
+            </div>
+        </div>
+        <div id="templates" style="display:none;">
+            <div id="option-row-template">
+                <div class="form-group row option-placeholder">
+                    <div class="col-xs-8">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="button" class="btn btn-danger delete-line-placeholder">
+                            X
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
